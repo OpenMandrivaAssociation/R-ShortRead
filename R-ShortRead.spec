@@ -4,7 +4,7 @@
 Name:             R-%{packname}
 Version:          1.12.4
 Release:          1
-Summary:          Classes and methods for high-throughput short-read sequencing data.
+Summary:          Classes and methods for high-throughput short-read sequencing data
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
 URL:              http://bioconductor.org/packages/release/bioc/html/%{packname}.html
