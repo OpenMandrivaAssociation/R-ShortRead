@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          1.12.4
-Release:          2
+Release:          3
 Summary:          Classes and methods for high-throughput short-read sequencing data
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
