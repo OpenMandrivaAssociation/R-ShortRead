@@ -2,22 +2,19 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          1.12.4
-Release:          3
+Version:          1.16.3
+Release:          1
 Summary:          Classes and methods for high-throughput short-read sequencing data
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
 URL:              http://bioconductor.org/packages/release/bioc/html/%{packname}.html
-Source0:          http://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
-Requires:         R-methods R-IRanges R-GenomicRanges R-Biostrings R-lattice
-Requires:         R-Rsamtools R-latticeExtra R-GenomicRanges
-Requires:         R-Biostrings R-Biobase R-hwriter R-Rsamtools R-zlibbioc
-Requires:         R-biomaRt R-RUnit R-GenomicFeatures R-yeastNagalakshmi
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex
-BuildRequires:    R-methods R-IRanges R-GenomicRanges R-Biostrings R-lattice
-BuildRequires:    R-Rsamtools R-latticeExtra R-GenomicRanges
-BuildRequires:    R-Biostrings R-Biobase R-hwriter R-Rsamtools R-zlibbioc
-BuildRequires:    R-biomaRt R-RUnit R-GenomicFeatures R-yeastNagalakshmi
+Source0:          http://bioconductor.org/packages/release/bioc/src/contrib/ShortRead_1.16.3.tar.gz
+Requires:         R-methods R-IRanges R-GenomicRanges R-Biostrings R-lattice R-Rsamtools R-latticeExtra 
+Requires:         R-IRanges R-GenomicRanges R-Biostrings R-Biobase R-hwriter R-Rsamtools R-zlibbioc R-lattice 
+Requires:         R-biomaRt R-RUnit R-GenomicFeatures R-yeastNagalakshmi 
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-methods R-IRanges R-GenomicRanges R-Biostrings R-lattice R-Rsamtools R-latticeExtra
+BuildRequires:    R-IRanges R-GenomicRanges R-Biostrings R-Biobase R-hwriter R-Rsamtools R-zlibbioc R-lattice 
+BuildRequires:    R-biomaRt R-RUnit R-GenomicFeatures R-yeastNagalakshmi 
 
 %description
 Base classes, functions, and methods for representation of
@@ -57,3 +54,13 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/script
 %{rlibdir}/%{packname}/template
 %{rlibdir}/%{packname}/unitTests
+
+
+%changelog
+* Sat Feb 18 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.12.4-2
++ Revision: 776810
+- Rebuild.
+- Import R-ShortRead
+- Import R-ShortRead
+
+
