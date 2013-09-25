@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          1.16.3
+Version:          1.18.0
 Release:          1
 Summary:          Classes and methods for high-throughput short-read sequencing data
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
 URL:              http://bioconductor.org/packages/release/bioc/html/%{packname}.html
-Source0:          http://bioconductor.org/packages/release/bioc/src/contrib/ShortRead_1.16.3.tar.gz
+Source0:          http://bioconductor.org/packages/release/bioc/src/contrib/ShortRead_1.18.0.tar.gz
 Requires:         R-methods R-IRanges R-GenomicRanges R-Biostrings R-lattice R-Rsamtools R-latticeExtra 
 Requires:         R-IRanges R-GenomicRanges R-Biostrings R-Biobase R-hwriter R-Rsamtools R-zlibbioc R-lattice 
 Requires:         R-biomaRt R-RUnit R-GenomicFeatures R-yeastNagalakshmi 
@@ -62,5 +62,6 @@ rm -f %{buildroot}%{rlibdir}/R.css
 - Rebuild.
 - Import R-ShortRead
 - Import R-ShortRead
+
 
 
