@@ -7,7 +7,7 @@ Release:          1
 Summary:          Classes and methods for high-throughput short-read sequencing data
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
-URL:              http://bioconductor.org/packages/release/bioc/html/%{packname}.html
+URL:              https://bioconductor.org/packages/release/bioc/html/%{packname}.html
 Source0:          http://bioconductor.org/packages/release/bioc/src/contrib/ShortRead_1.18.0.tar.gz
 Requires:         R-methods R-IRanges R-GenomicRanges R-Biostrings R-lattice R-Rsamtools R-latticeExtra 
 Requires:         R-IRanges R-GenomicRanges R-Biostrings R-Biobase R-hwriter R-Rsamtools R-zlibbioc R-lattice 
